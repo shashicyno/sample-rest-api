@@ -1,0 +1,8 @@
+import rest.example.Product
+
+model {
+	Iterable<Product> productList
+}
+
+json tmpl.product(productList ?: [])
+
